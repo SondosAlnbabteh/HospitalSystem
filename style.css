@@ -1,0 +1,22 @@
+body{
+    background-image: url("hospital.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparent-form {
+    background: rgba(255, 255, 255, 0.5); /* Transparent background */
+    padding: 20px;
+    border-radius: 8px;
+}
+.transparent-form input, .transparent-form select, .transparent-form label {
+    margin-bottom: 15px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-container button {
+    align-self: flex-end;
+}
