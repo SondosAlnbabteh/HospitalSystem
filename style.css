@@ -1,13 +1,27 @@
-body{
+.background{
+    padding: 4px;
     background-image: url("hospital.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo{
+    color: rgb(31, 60, 88);
+    font-family: 'Brush Script MT', cursive;
 }
 
 .transparent-form {
     background: rgba(255, 255, 255, 0.5); /* Transparent background */
     padding: 20px;
     border-radius: 8px;
+    width: 50%;
+   margin-bottom:30px ;
+   
 }
 .transparent-form input, .transparent-form select, .transparent-form label {
     margin-bottom: 15px;
@@ -16,7 +30,52 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+   
 }
 .form-container button {
-    align-self: flex-end;
+    align-self: center;
+    width: 100%;
+    
 }
+
+#mainDiv{
+    width: 80%;
+
+   
+}
+
+.patient-card {
+    width: 80%;
+    max-width: 300px; 
+    margin: 0 auto;
+    
+}
+
+.patient-card img {
+    max-width: 100%;
+    height: 50%;
+}
+
+.card-body {
+    padding: 5px;
+
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: red;
+}
+.title{
+    font-size: 120%;
+}
+
